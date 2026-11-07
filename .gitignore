@@ -1,0 +1,29 @@
+# PlatformIO project files (recursive across all subprojects)
+**/pio/
+**/.pioenvs/
+**/.piolibdeps/
+**/.clangd/
+**/.gcc-flags.json
+
+# VS Code directory & settings (recursive)
+**/.vscode/.browse.c_cpp_properties.json
+**/.vscode/c_cpp_properties.json
+**/.vscode/launch.json
+**/.vscode/ipch/
+
+# Optional: Uncomment if you want to ignore workspace-specific settings in subfolders
+# **/.vscode/settings.json
+
+# Build and compilation outputs (recursive)
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.map
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Environment / Secret variables (WiFi credentials, API keys, etc.)
+*.env
+**/include/secrets.h
